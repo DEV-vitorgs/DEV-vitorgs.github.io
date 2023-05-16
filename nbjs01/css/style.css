@@ -4,14 +4,16 @@
 @media (max-width: 767px) {
   main {
     margin: 0;
-    padding: 0;
-    width: 100%;
+    padding: 1px 0;
+    width: 100vw;
     box-sizing: border-box;
     display: block;
     clear: both;
   }
+  body {
+  overflow-x: hidden;
+  }
 }
-
 
 
 * {
