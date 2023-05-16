@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/neutraface-text">
+    <link href="https://fonts.cdnfonts.com/css/roboto-slab-2" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Variáveis </title>
+</head>
+
+<body>
+    
+    <header>
+            <h1 class="logo">JavaScript</h1>
+            <p class="logop">Aula 11: Criando Variáveis</p>
+    </header>
+    
+    <main>
+    <h2>Introdução</h2>
+    <p>
+        Agora que mergulhamos em como estruturar e estilizar páginas da Web, vamos dar uma olhada no que precisamos para torná-las interativas.<br>
+        <br>
+        Analisaremos detalhadamente o Javascript, uma linguagem de programação que alimenta sites e aplicativos dinâmicos.<br>
+        <br>
+        Sites dinâmicos precisam se lembrar de informações para exibir ou alterar. Para isso, o JavaScript possui variáveis.<br>
+        Como as caixas móveis, as variáveis ​​têm conteúdo e nomes que nos dizem o que há dentro.<br>
+    </p>
+    <h2>const e let</h2>
+    <p>
+        Usamos <strong>let</strong> e <strong>const</strong> para criar variáveis. Usaremos ambos por enquanto e cobriremos a diferença entre eles mais tarde.<br>
+        <br>
+        Toda variável precisa de um nome.<br> 
+        <b>Os nomes das variáveis ​​precisam ser palavras únicas e, portanto, sem espaços</b>.<br>
+        <br>
+        Para criar nomes de variáveis ​​com várias palavras, usamos <u>camelCase</u>. Começamos com uma letra minúscula e colocamos em maiúscula as palavras adicionais.<br>
+    </p>
+    <div id="exemplo">
+        <p>
+        Exemplo:<br>
+        let <strong>homeCity</strong>
+        </p>
+    </div>
+    <p>Para nos ajudar a entender o que há dentro de uma variável, escolhemos nomes descritivos.</p>
+    <h2>Questões</h2>
+    <p id="quiz">
+        <i>Por que damos às variáveis ​​nomes descritivos como city ou country em vez de x ou y?</i><br>
+        <b>Para nos ajudar a entender o que há dentro deles</b>.<br>
+        <br>
+        <i>Que palavras podemos usar para declarar variáveis?</i><br>
+        <b>Let e Const.</b><br>
+        <br>
+        <i>Para que usamos a Camel Case?</i><br>
+        <b>Para criar nomes de variáveis com várias palavras.</b>
+    </p>
+    <h2>Continuação</h2>
+    <p>
+        Os nomes das variáveis ​​também podem conter <b>números</b>. A adição de números é útil com várias variáveis ​​semelhantes.<br>
+        Depois de criar e nomear uma variável, usamos o sinal <b>=</b> para armazenar um valor dentro dela.<br>
+        Para terminar de criar uma variável, <b>colocamos um ponto e vírgula ";"</b> no final da linha.<br>
+    </p>
+    <div id="exemplo">
+        <p>
+        Exemplo:<br>
+        const city <strong>="Chicago";</strong>
+        </p>
+    </div>
+    <p>
+        Os valores que estamos armazenando "Chicago" são <strong>strings</strong>. Strings são palavras entre aspas duplas.<br>
+        Strings podem conter todos os tipos de letras e símbolos, incluindo espaços.<br>
+    </p>
+    <h2>Questões</h2>
+    <p id="quiz">
+        <i>Como sabemos que um valor é uma string?</i><br>
+        <b>É uma palavra entre aspas duplas.</b>
+    </p>
+    <h2>Diferença entre const e let</h2>
+    <p>
+        Já sabemos que podemos declarar variáveis ​​com const e let. Vamos descobrir a diferença entre eles!<br>
+        Usamos <strong>const</strong> para declarar variáveis ​​cujos <b>valores não devem mudar</b>.<br>
+        const é a abreviação de <b>"constante"</b>.<br>
+        Se tentarmos atualizar um valor armazenado em uma variável const. Receberemos um erro.<br>
+        <br>
+        No entanto, podemos atualizar variáveis <strong>let</strong> ​​com o <b>=</b> operador de atribuição.<br>
+        <br>
+        Para deixar claro que uma variável é do tipo <b>const</b> e não deve mudar, podemos opcionalmente nomeá-la com letras <b>MAIÚSCULAS</b>.<br>
+        <br>
+        Não podemos usar <u>camelCase</u> se usarmos esse padrão de maiúsculas, então usamos maiúsculas <b>snake_case</b> para nomear variáveis ​​com mais de uma palavra.<br>
+    </p>
+    <div id="exemplo">
+        <p>
+        Exemplo MAIÚSCULA:<br>
+        const <strong>BIRTHDAY</strong> = "24/02/1993";<br>
+        <br>
+        Exemplo SNACK_CASE:<br>
+        const <strong>SPEED_OF_LIGHT</strong> = "3*10⁸ m/s";
+        </p>
+    </div>
+    <p>
+        Ambos const e let são variáveis ​​úteis e poderíamos usá-los de forma intercambiável. No entanto, devemos tentar usar <b>const</b> como padrão.<br>
+    </p>
+
+    <h2>Questões</h2>
+    <p id="quiz">
+        <i>O que const significa?</i><br>
+        <b>Constante</b>.<br>
+        <br>
+        <i>FALSO OU VERDADEIRO:<br> 
+        Podemos atribuir um novo valor a uma variável let?</i><br>
+        <b>Verdadeiro</b>.<br>
+        <br>
+        <i>Qual é o padrão opcional para garantir que as constantes não alterem seus valores?</i><br>
+        <b>Nomeando com letras MAIÚSCULAS</b>.<br>
+        <br>
+        <i>O que devemos usar como padrão?</i><br>
+        <b>Const</b>.
+    </p>
+    <h2>Linhas de Códigos</h2>
+    <p>
+        Linhas de código são <b>instruções</b> para o computador seguir.<br>
+        Quando executamos o código, dizemos ao computador para seguir as instruções que montamos.<br>
+        Com a instrução especial <strong>console.log()</strong>, dizemos ao computador para exibir um valor em uma área chamada <b>console</b>.
+    </p>
+    <div id="exemplo">
+    <p>
+        Exemplo:<br>
+        <strong>console.log (</strong>"Hello, World!"<strong>)</strong><br>
+    </p>
+    </div>
+    <p>
+        Podemos usar a instrução <u>console.log()</u> quantas vezes quisermos. <b>O computador exibe todos os valores em uma linha no console</b>.<br>
+        Podemos usar console.log() para exibir variáveis ​​como <strong>greeting</strong>, também.<br>
+        Quando exibimos variáveis ​​no console, seus valores aparecem em vez de seus nomes.<br>
+    </p>
+    <h2>Questões</h2>
+    <p id="quiz">
+        <i>Como sabemos "Hello, World!"que é uma string?</i><br>
+        <b>Começa e termina coma aspas duplas.</b><br>
+        <br>
+        <i>O que é o Console?</i><br>
+        <b>Uma área que exibe a saída.</b><br>
+        <br>
+        <i>O que a instrução especial console.log() faz?</i><br>
+        <b>Exibe um valor no console.</b><br>
+    </p>
+    </main>
+    <footer>
+        <a href="../nbcss01/aula10.html">
+            <button><span class="fas fa-caret-left" style="margin: 0 5px;"></span> Aula 10</button></a>
+        <a href="../index.html">
+            <button>Ínicio da Apostila</button></a>
+        <a href="aula12.html">
+            <button>Aula 12 <span class="fas fa-caret-right" style="margin: 0 5px;"></span></button></a>
+    </footer>
+</body>
+
+</html>

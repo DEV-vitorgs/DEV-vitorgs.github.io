@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Folha de Estilo e Seletores Básicos</title>
+</head>
+
+<body>
+    <h1 style="line-height: 0.9;">Folha de Estilo <br> e Seletores Básicos</h1>
+    <p>
+        Adicionar todo o nosso CSS entre tags style vai criar documentos HTML enormes que são difíceis de editar.<br>
+        Como foi feito na aula passada, nessa aula vamos mexer com folha de estilo externa.<br>
+        <br>
+        Para tornar as páginas da Web mais gerenciáveis, podemos mover nosso CSS para uma <strong>folha de estilo</strong> ou um arquivo especial apenas para estilizar a página da Web.<br>
+        <br>
+        Para incluir uma folha de estilo em um arquivo HTML, usamos o elemento <strong>link</strong>.<br> 
+        link é um elemento vazio de fechamento automático e vai para dentro do elemento head.<br>
+        <br>
+        Para saber que tipo de arquivo incluir, a tag link de abertura precisa do relatributo definido usando <strong>rel="stylesheet"</strong>.<br>
+        Para especificar a localização da folha de estilo, defina o atributo href como <strong>"style.css"</strong>.<br>
+        <br>
+        <br>
+        Exemplo prático:<br>
+        <img src="img/img-style.jpg" height="95" width="400" alt="Exemplo prático na imagem do link style no head." title="Exemplo prático na imagem do link style no head.">
+    </p>
+    <p>
+        Se houver vários elementos do mesmo tipo em uma página da Web, seletores como h1, h2 ou p alteram todos esses elementos.<br>
+        <br>
+        Se quisermos selecionar um ou mais elementos, podemos definir um "class" atributo para os elementos exatos que queremos alterar.<br>
+        Na folha de estilo, podemos definir uma nova regra de classe com um "." seguido do nome da classe. Como aqui com ".gray-element".<br>
+        As regras para a classe serão aplicadas a todos os elementos que possuem esse atributo de classe no arquivo html.<br>
+        As classes não são únicas, então podemos definir a mesma classe para vários elementos. Como aqui, por exemplo, com class = "gray-element".<br>
+        Para definir uma classe como um seletor em CSS, adicione um ponto seguido do nome da classe. Neste caso, é .gray-element.<br>
+        <br>
+        Como aplicamos um estilo a um ou mais, mas não a todos os elementos de uma página da Web?<br>
+        Com o seletor de classe.<br>
+        <br>
+        O que forma uma regra?<br>
+        Somente proriedades e valores formam uma regra CSS.<br>
+        <br>
+        Vimos como podemos usar tags HTML e classes CSS para alterar os estilos de grupos de elementos.<br>
+        <br>
+        Se quisermos estilizar um elemento específico, podemos incluir um seletor id.<br>
+        Precisamos identificar o elemento no html.<br>
+        Para definir um atributo de id, digite <strong>id=""</strong>; após o sinal =, defina o valor do id.<br>
+        Os valores de ID devem ser exclusivos no documento HTML.<br>
+        <br>
+        <strong>Portanto, não devemos incluir um segundo atributo id com o mesmo valor</strong>.<br>
+        <br>
+        Agora que incluímos o id no elemento HTML, estamos prontos para usar o seletor id para nossos estilos.<br>
+        Para selecionar o elemento pelo seu id, digitamos # seguido do nome do id.<br>
+        <br>
+        Os IDs nos ajudarão com o JavaScript e não devemos usá-los demais para estilizar. No entanto, podemos aplicar estilos como de costume com o seletor id.<br>
+        <br>
+        Para que servem os IDs?<br>
+        IDs identificam elementos HTML exclusivos.<br>
+        <br>
+        Como definimos um atributo de ID no arquivo html?<br>
+        Digitando id na tag de abertura.<br>
+        <br>
+        Por que dizemos que IDs são únicos?<br>
+        Porque dois elementos não devem ter o mesmo ID.
+    </p>
+    <p>
+        Personalizei essa página de forma toda cagada sem estrutura nem nada o que torna muito díficil personaliza-la, tudo isso não passa de uma maquiagem mal feita e não responsiva.<br>
+    <br>
+    <br>
+    </p>
+    <footer>
+        <a href="aula07.html"><button>&lt; Aula 07</button></a>
+        <a href="../index.html"><button>Ínicio da Apostila</button></a>
+        <a href="aula09.html"><button>Aula 09 &gt;</button></a>
+    </footer>
+</body>
+</html>

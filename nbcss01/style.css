@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CABEÇALHO */
+h1 {
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    background-color: royalblue;
+    text-decoration-line: underline;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+/* CORPO */
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* TEXTO */
+p {
+    color: royalblue;
+    width: 100%;
+    margin: 0;
+    padding: 40px 25% 15px 25%;  /* TOP /  DIREITA / BAIXO / ESQUERDA */
+}
+
+/* RODAPÉ */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: royalblue;
+    height: 100%;
+    font-family: Arial;
+}
+
+/* BOTÃO */
+button {
+    background-color: royalblue;
+    color: white;
+    padding: 8px;
+    border-color: #ffffff;
+    margin-right: 100px;
+    width: 100%;
+    justify-content: center;
+    border: 0;
+    border-top: 1px solid royalblue;
+    border-bottom: 1px solid royalblue;
+}
+
+button:hover {
+    background-color: white;
+    color: royalblue;
+    border-color: royalblue;
+    font-weight: bold;
+}

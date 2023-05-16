@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url('https://fonts.cdnfonts.com/css/neutraface-text');
+@import url('https://fonts.cdnfonts.com/css/roboto-slab-2');
+
+
+* {
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, black, #323330, black);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F0DB4F;
+    text-align: center;
+    padding: 2.2%;
+    border: solid 1px black;
+}
+
+main {
+    background-color: white;
+    margin: 0 15%;
+    padding: 1px 10%;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'Neutraface Text', sans-serif;
+    text-decoration: underline;
+    padding: 3% 0;
+}
+
+p {
+    text-align: justify;
+    font: 1em 'Roboto Slab', serif;
+}
+
+strong {
+    background-color: #f0da4fda;
+    padding: 0 6px;
+    text-decoration: underline;
+    color: black;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #F0DB4F;
+    padding: 2% 0;
+    border-top: solid 1px black;
+    position: block;
+    bottom: 0;
+}
+
+button {
+    padding: 1% 1.5%;
+    border: solid 1px black;
+    background-color: #323330;
+    color: #F0DB4F;
+    font-family: 'Roboto Slab', serif;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    margin-right: auto;
+    font: 900 3em 'Neutraface Text', sans-serif;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.logop {
+    text-align: center;
+    font: 900 1em 'Roboto Slab', serif;
+    margin: 0;
+}
+
+#exemplo {
+    background-color: #323330;
+    color: #F0DB4F;
+    padding: 3% 1%;
+    margin: 5% 0;
+}
+
+#exemplo p {
+    text-align: center;
+}
+
+#quiz {
+    background-color: lightgray;
+    padding: 5%;
+    text-align: center;
+}
+
+#quiz p {
+    text-align: center;
+}
