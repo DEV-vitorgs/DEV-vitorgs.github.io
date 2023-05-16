@@ -51,7 +51,7 @@ footer {
     background-color: #F0DB4F;
     padding: 2% 0;
     border-top: solid 1px black;
-    position: absolute;
+    position: block;
     bottom: 0;
 }
 
