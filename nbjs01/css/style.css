@@ -17,12 +17,13 @@ header {
     text-align: center;
     padding: 2.2%;
     border: solid 1px black;
+    position: fixed;
 }
 
 main {
     background-color: white;
-    margin: 0 5%;
-    padding: 1px 10%;
+    margin: 0 8%;
+    padding: 20px 10%;
 }
 
 
@@ -30,7 +31,7 @@ h2 {
     text-align: center;
     font-family: 'Neutraface Text', sans-serif;
     text-decoration: underline;
-    padding: 3% 0;
+    padding: 5% 0px;
 }
 
 p {
@@ -51,7 +52,7 @@ footer {
     background-color: #F0DB4F;
     padding: 2% 0;
     border-top: solid 1px black;
-    position: block;
+    position: fixed;
     bottom: 0;
 }
 
