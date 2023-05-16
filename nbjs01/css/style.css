@@ -17,7 +17,6 @@ header {
     text-align: center;
     padding: 2.2%;
     border: solid 1px black;
-    position: fixed;
 }
 
 main {
@@ -52,7 +51,7 @@ footer {
     background-color: #F0DB4F;
     padding: 2% 0;
     border-top: solid 1px black;
-    position: fixed;
+    position: absolute;
     bottom: 0;
 }
 
