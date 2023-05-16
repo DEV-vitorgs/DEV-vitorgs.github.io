@@ -4,7 +4,6 @@
 @media (max-width: 767px) {
   main {
     margin: 0;
-    padding: 1px 5%;
     width: 100%;
     box-sizing: border-box;
   }
